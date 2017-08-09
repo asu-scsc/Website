@@ -1,0 +1,16 @@
+#calendar-div {
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    position: relative;
+}
+#calendarHeading {
+    color: #FFC627;
+    letter-spacing: 0.05em;
+}
+#calendar {
+    background: #8C1D40;
+}
+#calendarTitle {
+    color: yellow;
+}

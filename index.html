@@ -3,35 +3,43 @@
 
 <head>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
 
     <title>ASU Polytechnic Computer Science Club</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet"type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic" rel="stylesheet" type="text/css">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet"type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic" rel="stylesheet" type="text/css" />
 
     <!-- Plugin CSS -->
-    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" />
 
     <!-- Theme CSS -->
-    <link href="css/creative.min.css" rel="stylesheet">
-
+    <link href="css/creative.min.css" rel="stylesheet" />
+    
+    <!-- Custom Page CSS -->
+    <link href="css/styles.css" rel="stylesheet" />
+    
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+    <script type="text/javascript">
+        $( document ).ready(function() {
+            
+            
+        });
+    </script>
 </head>
 
 <body id="page-top">
@@ -49,6 +57,9 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#calendar">Events</a>
+                    </li>
                     <li>
                         <a class="page-scroll" href="#about">About</a>
                     </li>
@@ -93,48 +104,6 @@
     </section>
 	
     <!-- Set our anchor at the about section -->
-    <section id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading"><font color="#fff">About Us</font></h2>
-                    <hr class="primary">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-users text-primary sr-icons"></i>
-                        <h3><font color="#fff">Group Projects</font></h3>
-                        <p class="text-muted"><font color="#fff">Work on collaborative group projects to learn new skills!</font></p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-calendar-check-o text-primary sr-icons"></i>
-                        <h3><font color="#fff">Attend Meetings</font></h3>
-                        <p class="text-muted"><font color="#fff">Join us in our weekly meetings to get down with some code, work on some homework, or discuss new trends in the industry!</font></p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
-                        <h3><font color="#fff">Newsletter</font></h3>
-                        <p class="text-muted"><font color="#fff">Receive weekly newsletters full of opportunities to expand your knoweldge in Computer Science!</font></p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-sitemap text-primary sr-icons"></i>
-                        <h3><font color="#fff">Participate In Hackathons</font></h3>
-                        <p class=""><font color="#fff">String together a team within our club to join you in Hackathons!</font></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 <!-- PORTFOLIO================================================== -->
 <!-- Can use this section for future of building up projects -->
 <!--
@@ -235,7 +204,69 @@
         </div>
     </section>
 -->
-   <section id="join" style="padding-bottom:0;padding-top:20%;"> 
+    <section id='calendar' style="padding-top: 15px;" >
+        <div class='container text-center' >   
+            <div id="calendar-div" class="col-md-12" >
+                
+                <h2 id="calendarHeading" style="margin-bottom: 30px">
+                    <font color="#FFC627">
+                       <strong> Welcome to the Polytechnic Computer Science Club</strong>
+                    </font>
+                </h2>
+                
+
+                <div class="embed-responsive embed-responsive-4by3" style="color: yellow">
+                    <iframe src="https://calendar.google.com/calendar/embed?showPrint=0&amp;showTabs=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFC627&amp;src=asu.edu_2l69j4mfn8o12hp1ktu7ia7bl4%40group.calendar.google.com&amp;color=%23FFC627&amp;ctz=America%2FPhoenix" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading"><font color="#fff">About Us</font></h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-users text-primary sr-icons"></i>
+                        <h3><font color="#fff">Group Projects</font></h3>
+                        <p class="text-muted"><font color="#fff">Work on collaborative group projects to learn new skills!</font></p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-calendar-check-o text-primary sr-icons"></i>
+                        <h3><font color="#fff">Attend Meetings</font></h3>
+                        <p class="text-muted"><font color="#fff">Join us in our weekly meetings to get down with some code, work on some homework, or discuss new trends in the industry!</font></p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
+                        <h3><font color="#fff">Newsletter</font></h3>
+                        <p class="text-muted"><font color="#fff">Receive weekly newsletters full of opportunities to expand your knoweldge in Computer Science!</font></p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-sitemap text-primary sr-icons"></i>
+                        <h3><font color="#fff">Participate In Hackathons</font></h3>
+                        <p class=""><font color="#fff">String together a team within our club to join you in Hackathons!</font></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+   <section id="join" style="padding-bottom:0;padding-top:0%;"> 
     <aside class="bg-dark">
         <div class="container text-center">
             <div class="call-to-action">
@@ -249,6 +280,7 @@
         </div>
     </aside>
     </section>
+
     <div>
     </div>
 
